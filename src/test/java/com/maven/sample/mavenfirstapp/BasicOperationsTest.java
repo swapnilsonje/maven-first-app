@@ -11,4 +11,8 @@ public class BasicOperationsTest {
 	public void testGenerate() {
 		assertEquals("Hello Swapnil", BasicOperations.generate("Swapnil"));
 	}
+	
+	public void testGenerate1() {
+		assertEquals("Hello Swapnil1", BasicOperations.generate("Swapnil1"));
+	}
 }
